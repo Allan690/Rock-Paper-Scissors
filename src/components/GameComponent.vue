@@ -12,8 +12,8 @@
             </div>
             <div class="intro">
                 <h1>Rock, Paper, Scissors Game </h1>
-                <button v-on:click="startGame">You V Comp</button>
-                <button v-on:click="startGame">Comp V Comp</button>
+                <button v-on:click="startGame" ref="pvComp">You V Comp</button>
+                <button v-on:click="startGame" ref="cvComp">Comp V Comp</button>
             </div>
             <div class="match fadeOut">
                 <h2 class="winner">{{ winnerText }}</h2>
@@ -44,7 +44,7 @@
     import scissors from '@/assets/scissors.png'
 
 export default {
-    name: 'HomeComponent',
+    name: 'GameComponent',
     data() {
         return {
             cScore: 0,

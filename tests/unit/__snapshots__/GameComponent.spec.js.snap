@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameComponent renders correctly 1`] = `
+<section
+  class="game"
+>
+  <div
+    class="score"
+  >
+    <div
+      class="player-score"
+    >
+      <h2>
+        Player
+      </h2>
+       
+      <p>
+        0
+      </p>
+    </div>
+     
+    <div
+      class="computer-score"
+    >
+      <h2>
+        Computer
+      </h2>
+       
+      <p>
+        0
+      </p>
+    </div>
+  </div>
+   
+  <div
+    class="intro"
+  >
+    <h1>
+      Rock, Paper, Scissors Game 
+    </h1>
+     
+    <button>
+      You V Comp
+    </button>
+     
+    <button>
+      Comp V Comp
+    </button>
+  </div>
+   
+  <div
+    class="match fadeOut"
+  >
+    <h2
+      class="winner"
+    >
+      Choose an option
+    </h2>
+     
+    <div
+      class="hands"
+    >
+      <img
+        alt=""
+        class="player-hand"
+        src=""
+      />
+       
+      <img
+        alt=""
+        class="computer-hand"
+        src=""
+      />
+    </div>
+     
+    <div
+      class="options"
+    >
+      <button
+        class="rock"
+      >
+        rock
+      </button>
+       
+      <button
+        class="paper"
+      >
+        paper
+      </button>
+       
+      <button
+        class="scissors"
+      >
+        scissors
+      </button>
+    </div>
+  </div>
+</section>
+`;
