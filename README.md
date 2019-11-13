@@ -17,3 +17,9 @@ To run the app, simply run the serve command on your terminal, then open http://
 ```$xslt
 $ yarn serve 
 ```
+### Running tests
+To run the unit tests run the test:unit command
+
+```
+$ yarn test:unit
+```
